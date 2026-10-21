@@ -113,9 +113,11 @@ sudo grep "UFW BLOCK" /var/log/ufw.log | grep "SRC=192.168.159.1 " | awk '{print
 - `[UFW BLOCK]`: the firewall enforced the deny rule and logged the packet.
 
 ## 7. Screenshots
-![UFW rule list](screenshots/01-ufw-status.png)
-![Nmap scan showing the port as filtered](screenshots/02-nmap-filtered.png)
-![UFW BLOCK log entry](screenshots/03-ufw-block-log.png)
+![UFW rule list](ufw%20status.jpeg)
+
+![Nmap scan showing the port as filtered](nmap%20filtered%20ping.png)
+
+![UFW BLOCK log entry and clean extraction](Clean%20Extraction.jpeg)
 
 ## 8. Mitigation and Recommendations
 
